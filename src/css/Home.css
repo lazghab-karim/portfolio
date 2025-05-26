@@ -11,7 +11,17 @@
   animation: fadeTranslate 1.2s ease-out forwards;
   font-family: Grotesk S SH Bold;
   opacity: 0.2;
+  padding-bottom :100px ;
   color:black
+}
+
+.animation-text h1{
+  margin-bottom: 0%;
+}
+.animation-text h4{
+  background: linear-gradient(to right, #8b5cf6, #7c3aed, #ec4899); /* purple → violet → pink */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .intro-text {
   font-family: Ideal Regular;
@@ -29,18 +39,58 @@
   }
 }
 
-.scroll-section {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  max-width: 800px;
-  margin-top: 4rem;
-  text-align: center;
-  color: #444;
-  font-style: italic;
+.home-about {
+  background-color: #EFF6FF;
+  display: flex;
+  flex-direction: row;
 }
 
-.scroll-section.visible {
-  opacity: 1;
-  transform: translateY(0);
+.Home-myImage{
+  border-radius: 5rem;
+  height: 500px;
+  padding: 1rem;
+}
+.home-about-text {
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  justify-content: center;
+}
+
+.buttons-contact{
+  display: flex;
+  flex-direction: row;
+  gap:50px;
+}
+.github-button{
+  border-radius: 8px;
+  color: white;
+  padding: 1rem;
+  background-color: #555;
+}
+
+.github-button:hover{
+  background-color: #7c3aed
+}
+
+.linkedin-button{
+  border-radius: 8px;
+  color: white;
+  padding: 1rem;
+  background-color: #0077b5;
+}
+
+.linkedin-button:hover{
+  background-color: #005983
+}
+
+.discord-button{
+  border-radius: 8px;
+  color: white;
+  padding: 1rem;
+  background-color: #5865F2;
+}
+
+.discord-button:hover{
+  background-color: #404EED
 }

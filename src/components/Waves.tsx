@@ -1,5 +1,6 @@
 import '../css/waves.css'
-export const Waves = () => {
+export const Waves = ({ fill1 = "#2d55aa",  fill2 = "#3461c1",fill3 = "#4579e2"}) => {
+
   return (
     <svg
         viewBox="0 0 2 1"
@@ -13,9 +14,9 @@ export const Waves = () => {
                 v.5z" />
         </defs>
         <g>
-            <use href="#w" y=".0" fill="#2d55aa" />
-            <use href="#w" y=".1" fill="#3461c1" />
-            <use href="#w" y=".2" fill="#4579e2" />
+            <use href="#w" y=".0" fill={fill1} />
+            <use href="#w" y=".1" fill={fill2} />
+            <use href="#w" y=".2" fill={fill3} />
         </g>
     </svg>
 

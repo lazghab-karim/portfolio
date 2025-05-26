@@ -2,7 +2,7 @@ import '../css/Contact.css';
 import '../css/waves.css'
 import Card from '../components/Card';
 
-import Waves from '../components/waves.tsx'
+import Waves from '../components/Waves.tsx'
 const Contact = () => {
     return (
         <>
@@ -32,6 +32,11 @@ const Contact = () => {
                         title="LinkedIn"
                         content="https://www.linkedin.com/in/lazghab-karim"
                         href="https://www.linkedin.com/in/lazghab-karim-067424216/"
+                        />
+                        <Card
+                        title="Discord"
+                        content="https://discord.com/channels/@me/660057370726105099"
+                        href="https://discord.com/channels/@me/660057370726105099"
                         />
                     </div>
                 </div>
