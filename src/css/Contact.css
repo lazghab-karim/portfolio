@@ -29,18 +29,6 @@
   flex-wrap: wrap;
 }
 
-.card {
-  background-color: #eaf5f4;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
-  width: 200px;
-  height: 160px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  word-wrap: break-word;         /* allows wrapping of long words */
-  overflow-wrap: break-word;     /* ensures overflow is handled */
-
-}
 
 .card:hover {
   transform: translateY(-10px);

@@ -1,5 +1,6 @@
 import '../css/Contact.css';
 import '../css/waves.css'
+import Card from '../components/Card';
 
 import Waves from '../components/waves.tsx'
 const Contact = () => {
@@ -13,36 +14,26 @@ const Contact = () => {
                     </h1>
 
                     <div className="contact-cards">
-                        <a href="https://github.com/lazghab-karim" target="_blank" rel="noopener noreferrer">
-                            <div className="card">
-                                <h3>GitHub</h3>
-                                <p>
-                                    https://github.com/lazghab-karim
-                                </p>
-                            </div>
-                        </a>
+                        <Card
+                        title="GitHub"
+                        content="https://github.com/lazghab-karim"
+                        href="https://github.com/lazghab-karim"
+                        />
 
-                        <a href="mailto:karim.lazghab@ensi-uma.tn">
-                            <div className="card">
-                                <h3>Email</h3>
-                                <p>
-                                    karim.lazghab@ensi-uma.tn
-                                </p>
-                            </div>
-                        </a>
-
-                        <div className="card">
-                            <h3>Phone</h3>
-                            <p>(+216) 58 898 681</p>
-                        </div>
-                        <a href="https://www.linkedin.com/in/lazghab-karim-067424216/">
-                            <div className="card">
-                                <h3>Linkedin</h3>
-                                <p>
-                                    https://www.linkedin.com/in/lazghab-karim
-                                </p>
-                            </div>
-                        </a>
+                        <Card
+                        title="Email"
+                        content="karim.lazghab@ensi-uma.tn"
+                        href="mailto:karim.lazghab@ensi-uma.tn"
+                        />
+                        <Card
+                        title="Phone"
+                        content="(+216) 58 898 681"
+                        />
+                        <Card
+                        title="LinkedIn"
+                        content="https://www.linkedin.com/in/lazghab-karim"
+                        href="https://www.linkedin.com/in/lazghab-karim-067424216/"
+                        />
                     </div>
                 </div>
             </div>

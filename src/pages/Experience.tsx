@@ -1,2 +1,2 @@
-const Projects = () => <h1>My Projects</h1>;
-export default Projects;
+const Experience= () => <h1>My Experience</h1>;
+export default Experience;
