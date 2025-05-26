@@ -1,0 +1,79 @@
+.contact-page {
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.page{
+  width: 100%;
+  margin-right: 150px;
+
+}
+
+.contact-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.highlight {
+  color: #ff4d7e; /* pinkish color */
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #eaf5f4;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  width: 200px;
+  height: 160px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  word-wrap: break-word;         /* allows wrapping of long words */
+  overflow-wrap: break-word;     /* ensures overflow is handled */
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgb(0 0 0 / 0.15);
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+.card:hover h3 {
+  background: linear-gradient(to right, #8b5cf6, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #8b5cf6, #7c3aed, #ec4899); /* purple → violet → pink */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-repeat: no-repeat;
+  padding: 1rem 0; /* vertical padding */
+  position: relative;
+}
