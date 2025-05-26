@@ -7,7 +7,6 @@ const Contact = () => {
     return (
         <>
             <div className='page'>
-                <div className='padding: 2rem'></div>
                 <div className="contact-page">
                     <h1 className="contact-title">
                         Let's <span className="gradient-text">CONNECT</span>

@@ -10,3 +10,28 @@
   overflow-wrap: break-word;     /* ensures overflow is handled */
 
 }
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgb(0 0 0 / 0.15);
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.card:hover h3 {
+  background: linear-gradient(to right, #8b5cf6, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
