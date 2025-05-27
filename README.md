@@ -1,7 +1,7 @@
 # My portfolio
-##to run 
+## to run 
 - git clone
 - npm install
 - npm run dev
 
-##React + TypeScript + Vite
+## React + TypeScript + Vite
